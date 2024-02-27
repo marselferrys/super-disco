@@ -5,9 +5,9 @@ import requests
 from io import BytesIO
 
 # Load datasets
-interactions = pd.read_csv(r"C:\Users\PC\Desktop\svd\customer_interactions_synthetic.csv")
-purchase_history = pd.read_csv(r"C:\Users\PC\Desktop\svd\purchase_history_synthetic.csv")
-product_details = pd.read_csv(r"C:\Users\PC\Desktop\svd\product_details_synthetic.csv")
+interactions = pd.read_csv(r"customer_interactions_synthetic.csv")
+purchase_history = pd.read_csv(r"purchase_history_synthetic.csv")
+product_details = pd.read_csv(r"product_details_synthetic.csv")
 
 # Get unique Customer IDs
 unique_customer_ids = purchase_history['Customer ID'].unique()
@@ -18,7 +18,7 @@ customer_id_mapping = {i+1: customer_id for i, customer_id in enumerate(unique_c
 # Function to load preds_df and recommend top products for a given user
 def recommend_products(user_id, num_recommendations=5):
     # Load preds_df
-    preds_df = pd.read_pickle(r"C:\Users\PC\Desktop\svd\preds_df.pkl")
+    preds_df = pd.read_pickle(r"preds_df.pkl")
 
     # Get the row corresponding to the user
     user_row_number = user_id - 1
