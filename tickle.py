@@ -61,7 +61,7 @@ st.title('Product Recommendations')
 
 # Count total rows in preds_df
 try:
-    preds_df = pd.read_pickle(r"C:\Users\PC\Desktop\svd\preds_df.pkl")
+    preds_df = pd.read_pickle(r"preds_df.pkl")
     total_rows_preds_df = preds_df.shape[0]
 except FileNotFoundError:
     st.write("preds_df file not found.")
