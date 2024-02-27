@@ -57,7 +57,7 @@ def get_purchased_products(user_id, product_details, purchase_history):
         return None
 
 # Streamlit UI
-st.title('Product Recommendations')
+st.title('Terra Recommendations')
 
 # Count total rows in preds_df
 try:
