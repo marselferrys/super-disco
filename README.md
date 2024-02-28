@@ -56,3 +56,6 @@ Here's how we can proceed:
   - Effectiveness: Collaborative filtering has been widely used and proven effective in various recommendation systems, especially in e-commerce platforms.
 
 Based on the data provided and the nature of the problem, collaborative filtering is a suitable choice for building a predictive model for recommending products to customers in an e-commerce setting.
+
+A little bit guide for notebooks:
+> 'https://github.com/reckn/super-disco/wiki'
