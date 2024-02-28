@@ -1,6 +1,8 @@
 # super-disco
 Shopping recommendation system for the customer of Terra e-commerce platform
 
+https://super-disco-bxjwicvx6cowarbipmukxt.streamlit.app/
+
 To build a predictive model that can forecast the next product a customer is likely to purchase, we can approach it as a recommendation problem. We can use collaborative filtering techniques, which are commonly used in recommendation systems for e-commerce platforms. Collaborative filtering predicts a customer's preference for products based on the preferences of similar customers.
 
 Given the problem statement and data description provided, we have the following datasets:
